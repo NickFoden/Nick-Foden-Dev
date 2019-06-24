@@ -29,7 +29,21 @@ const BodySection = () => (
       <h2>I’m Nick.</h2>
       <p>
         I grew up in the California Bay Area and now live in New York. I like
-        🐕's, solving problems, more 🐶's also 🐢's.{" "}
+        <span role="img" aria-label="dog">
+          {" "}
+          🐕{" "}
+        </span>
+        's, solving problems, more
+        <span role="img" aria-label="dog face">
+          {" "}
+          🐶{" "}
+        </span>
+        's also{" "}
+        <span role="img" aria-label="turtle">
+          {" "}
+          🐢{" "}
+        </span>
+        's.{" "}
       </p>
     </StyledSection>
     <StyledCarouselContainer>

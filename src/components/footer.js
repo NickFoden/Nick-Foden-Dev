@@ -37,7 +37,7 @@ const StyledUl = styled.ul`
     height: auto;
   }
   & li {
-    margin: 1rem;
+    margin: 0 1rem;
   }
 `
 
@@ -51,7 +51,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src={goodReads} />
+            <img src={goodReads} alt="goodReads" />
           </a>
         </li>
         <li>
@@ -60,7 +60,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src={github} />
+            <img src={github} alt="github" />
           </a>
         </li>
         <li>
@@ -69,7 +69,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src={wordpress} />
+            <img src={wordpress} alt="wordpress" />
           </a>
         </li>
         <li>
@@ -78,7 +78,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src={twitter} />
+            <img src={twitter} alt="twitter" />
           </a>
         </li>
       </StyledUl>
