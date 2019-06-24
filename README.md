@@ -1,1 +1,1 @@
-## 🚀Nick is Online
+## Nick is Online
