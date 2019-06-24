@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import favicon from "../../public/favicon.ico"
+// import favicon from "../../public/favicon.ico"
 
 function SEO({ description, lang, meta, title }) {
   const metaDescription = description
@@ -19,7 +19,6 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      link={[{ rel: "shortcut icon", type: "image/png", href: `${favicon}` }]}
       meta={[
         {
           name: `description`,
