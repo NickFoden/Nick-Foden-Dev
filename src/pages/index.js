@@ -1,15 +1,14 @@
 import React from "react"
-// import { Link } from "gatsby"
+import "../css/styles.css"
 
+import BodySection from "../components/BodySection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO description="A gatsby site for Nick Foden" title="Nick Is Online" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <BodySection />
   </Layout>
 )
 

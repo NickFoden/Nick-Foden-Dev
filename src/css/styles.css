@@ -1,0 +1,68 @@
+@import url( 'https://fonts.googleapis.com/css?family=Lato|Rubik&display=swap');
+
+:root {
+
+  --color-twitter-blue: #55acee;
+  --color-dark-gray: #222;
+  --color-white: rgb(250, 250, 250);
+}
+
+body {
+  background-color: var(--color-dark-gray);
+  font-family: Rubik, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var( --color-white);
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-white);
+  font-family: Lato, Rubik, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.ui.button {
+  background-color: white;
+  color: var(--color-white);
+}
+
+.ui.button:hover {
+  opacity: 75%;
+}
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+a:hover {
+  /* color: var(--color-white); */
+  opacity: .5;
+}
+
+p {
+  font-family: Lato, Rubik, Helvetica, Arial, sans-serif;
+}
