@@ -24,6 +24,9 @@ const DisplayContainer = styled.div`
     width: 2rem;
     height: auto;
   }
+  & span {
+    font-size: 0.5rem;
+  }
 `
 
 const StyledUl = styled.ul`
@@ -82,10 +85,7 @@ const Footer = () => (
           </a>
         </li>
       </StyledUl>
-
-      <a href="https://twitter.com/nickfoden">
-        © {new Date().getFullYear()}, Nick Foden
-      </a>
+      <span>© {new Date().getFullYear()}, Nick Foden</span>
     </DisplayContainer>
   </StyledFooter>
 )
