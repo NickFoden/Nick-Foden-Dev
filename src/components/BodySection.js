@@ -20,6 +20,7 @@ const StyledContainer = styled.div`
 
 const StyledCarouselContainer = styled.section`
   margin: 35px;
+  padding-left: 50px;
 `
 
 const BodySection = () => (
