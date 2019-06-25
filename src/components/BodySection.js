@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import AppCarousel from "./AppCarousel"
+import { Link } from "gatsby"
 
 const StyledSection = styled.section`
   margin: 25px;
@@ -27,7 +28,9 @@ const BodySection = () => (
   <StyledContainer>
     <StyledSection>
       <h4>Hello new friend!</h4>
-      <h2>I’m Nick.</h2>
+      <Link to="/about/">
+        <h2>I’m Nick.</h2>
+      </Link>
       <p>
         I grew up in the California Bay Area and now live in New York. I like
         <span role="img" aria-label="dog">
