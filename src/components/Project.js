@@ -48,7 +48,11 @@ const Project = ({ project }) => {
     <section>
       <StyledTitle>{project.title}</StyledTitle>
       <StyledP>{project.subTitle}</StyledP>
-      <StyledImage src={project.image} onClick={() => handleChange(!open)} />
+      <StyledImage
+        alt={project.title}
+        src={project.image}
+        onClick={() => handleChange(!open)}
+      />
 
       <Transition
         in={open}
