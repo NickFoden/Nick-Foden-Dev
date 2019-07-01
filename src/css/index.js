@@ -17,6 +17,6 @@ export const StyledSection = styled.section`
   }
   & p {
     margin: 25px;
-    max-width: 500px;
+    max-width: 750px;
   }
 `

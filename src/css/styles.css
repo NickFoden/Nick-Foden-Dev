@@ -70,3 +70,14 @@ a:hover {
 p {
   font-family: Lato, Rubik, Helvetica, Arial, sans-serif;
 }
+
+.project-div {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 2s, opacity 2s linear;
+}
+
+.true {
+  visibility: visible;
+  opacity: 1;
+}

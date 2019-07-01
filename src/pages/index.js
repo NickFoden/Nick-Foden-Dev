@@ -14,7 +14,7 @@ const IndexPage = () => (
       title="Nick Is Online"
     />
     <BodySection />
-    {/*}<ProjectsSection />*/}
+    <ProjectsSection />
     <AboutSection />
   </Layout>
 )
