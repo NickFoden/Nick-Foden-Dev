@@ -25,13 +25,14 @@ const StyledRow = styled.div`
   }
 `
 
-const StyledTitle = styled.h3`
+const StyledTitle = styled.h4`
   color: #6f8df7;
+  font-size: 1.5rem;
 `
 
 const Project = ({ project }) => {
   const [open, handleChange] = useState(false)
-  const duration = 250
+  const duration = 500
 
   const defaultStyle = {
     transition: `opacity ${duration}ms ease-in-out`,
@@ -40,7 +41,7 @@ const Project = ({ project }) => {
   const transitionStyles = {
     entering: { opacity: 0 },
     entered: { opacity: 1 },
-    exiting: { opacity: 1 },
+    exiting: { opacity: 0.5 },
     exited: { opacity: 0 },
   }
 
@@ -68,6 +69,7 @@ const Project = ({ project }) => {
                 href={project.siteLink}
                 rel="noopener noreferrer"
                 target="_blank"
+                title={`View the ${project.title} website`}
               >
                 View Project
               </a>
@@ -76,6 +78,7 @@ const Project = ({ project }) => {
                   href={project.sourceLink}
                   rel="noopener noreferrer"
                   target="_blank"
+                  title={`View the repo for ${project.title}`}
                 >
                   View Source
                 </a>
