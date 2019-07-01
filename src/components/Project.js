@@ -60,9 +60,21 @@ const Project = ({ project }) => {
           <div style={{ ...defaultStyle, ...transitionStyles[open] }}>
             <StyledP>{project.summary}</StyledP>
             <StyledRow>
-              <a href={project.siteLink}>View Project</a>
+              <a
+                href={project.siteLink}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                View Project
+              </a>
               {project.sourceLink && (
-                <a href={project.sourceLink}>View Source</a>
+                <a
+                  href={project.sourceLink}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  View Source
+                </a>
               )}
             </StyledRow>
           </div>
