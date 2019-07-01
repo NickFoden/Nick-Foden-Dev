@@ -1,33 +1,14 @@
 import React from "react"
-import styled from "styled-components"
 import AppCarousel from "./AppCarousel"
-
-const StyledSection = styled.section`
-  margin: 25px;
-  text-align: left;
-  & h4 {
-    margin: 25px;
-  }
-  & p {
-    margin: 25px;
-    max-width: 500px;
-  }
-`
-
-const StyledContainer = styled.div`
-  width: 100vw;
-`
-
-const StyledCarouselContainer = styled.section`
-  margin: 35px;
-  padding-left: 50px;
-`
+import { StyledCarouselContainer, StyledContainer, StyledSection } from "../css"
 
 const BodySection = () => (
   <StyledContainer>
-    <StyledSection>
+    <StyledSection id="welcome">
       <h4>Hello new friend!</h4>
-      <h2>I’m Nick.</h2>
+      <a href="#about">
+        <h2>I’m Nick.</h2>
+      </a>
       <p>
         I grew up in the California Bay Area and now live in New York. I like
         <span role="img" aria-label="dog">

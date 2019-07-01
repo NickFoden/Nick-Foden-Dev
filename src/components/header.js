@@ -1,5 +1,5 @@
-// import { Link } from "gatsby"
 import React from "react"
+import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -15,18 +15,16 @@ const Header = ({ siteTitle }) => (
         textAlign: "right",
       }}
     >
-      <h1>{siteTitle}</h1>
+      <Link
+        to="/"
+        style={{
+          textDecoration: `none`,
+        }}
+      >
+        <h1>{siteTitle}</h1>
+      </Link>
     </div>
   </header>
 )
 
 export default Header
-
-// <Link
-// to="/"
-// style={{
-//   textDecoration: `none`,
-// }}
-// >
-// {siteTitle}
-// </Link>
