@@ -44,6 +44,7 @@ h2:hover {
 }
 
 h3 {
+  color: lightseagreen;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -71,6 +72,12 @@ p {
   font-family: Lato, Rubik, Helvetica, Arial, sans-serif;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
 .project-div {
   visibility: hidden;
   opacity: 0;
@@ -80,4 +87,13 @@ p {
 .true {
   visibility: visible;
   opacity: 1;
+}
+
+.ul-tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul-tools li {
+  margin-right: 1rem;
 }

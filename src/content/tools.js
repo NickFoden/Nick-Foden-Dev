@@ -1,0 +1,17 @@
+export default [
+  "React",
+  "Redux",
+  "Node",
+  "Express",
+  "CSS Modules",
+  "MongoDB",
+  "Firebase",
+  "Jest Testing",
+  "Cypress Testing",
+  "React Testing Library",
+  "CircleCi",
+  "Styled Components",
+  "Sendgrid & Mailchimp APIs",
+  "SanityIo",
+  "MixPanel & GA Analytics",
+]
