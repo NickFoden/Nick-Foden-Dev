@@ -43,12 +43,12 @@ export default class AboutSection extends Component {
             School at Y Combinator.
           </p>
           <p>
-            When I'm not expanding my knowledge of Golang or javascripting away,
-            you can find me rescuing animals with Unwanted NYC Pets, cycling or
-            running around NYC. To be honest I don't particularly enjoy writing
-            own bios much. If you got this far I'll take you out for Banh Mi or
-            a beer or who knows, heck I'll even help you move apartments if you
-            need it. Hit me up !
+            When I'm not javascripting away or expanding my knowledge of Golang,
+            you can find me rescuing animals with Unwanted NYC Pets, and cycling
+            or running around NYC. To be honest I don't particularly enjoy
+            writing own bios much. If you got this far I'll take you out for
+            Banh Mi or a beer or who knows, heck I'll even help you move
+            apartments if you need it. Hit me up !
           </p>
           <StyledBackToTop href="#welcome"> - Back to top -</StyledBackToTop>
         </StyledSection>
