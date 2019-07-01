@@ -3,13 +3,13 @@ import { Transition } from "react-transition-group"
 import styled from "styled-components"
 
 const StyledImage = styled.img`
-  border: 1.5px solid black;
+  border: 1.5px solid lightgray;
   cursor: pointer;
   height: auto;
   width: 250px;
   transition: border-color 0.25s ease-in-out;
   & :hover {
-    border-color: #75f542;
+    border-color: #42f5d4;
   }
 `
 
