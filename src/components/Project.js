@@ -2,6 +2,10 @@ import React, { useState } from "react"
 import { Transition } from "react-transition-group"
 import styled from "styled-components"
 
+const StyledHr = styled.hr`
+  border: 1px solid lightseagreen;
+`
+
 const StyledImage = styled.img`
   border: 1.5px solid lightgray;
   cursor: pointer;
@@ -87,6 +91,7 @@ const Project = ({ project }) => {
           </div>
         )}
       </Transition>
+      <StyledHr />
     </section>
   )
 }
