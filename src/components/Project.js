@@ -1,10 +1,17 @@
 import React, { Fragment, useState } from "react"
+// import { TransitionGroup, CSSTransition } from "react-transition-group"
+import { Transition } from "react-transition-group"
 import styled from "styled-components"
 
 const StyledImage = styled.img`
+  border: 1.5px solid black;
   cursor: pointer;
   height: auto;
   width: 250px;
+  transition: border-color 0.25s ease-in-out;
+  & :hover {
+    border-color: #75f542;
+  }
 `
 
 const StyledP = styled.p`
@@ -25,21 +32,43 @@ const StyledTitle = styled.h3`
 
 const Project = ({ project }) => {
   const [open, handleChange] = useState(false)
+  const duration = 250
+
+  const defaultStyle = {
+    transition: `opacity ${duration}ms ease-in-out`,
+    opacity: 0,
+  }
+  const transitionStyles = {
+    entering: { opacity: 0 },
+    entered: { opacity: 1 },
+    exiting: { opacity: 1 },
+    exited: { opacity: 0 },
+  }
 
   return (
     <section>
       <StyledTitle>{project.title}</StyledTitle>
       <StyledP>{project.subTitle}</StyledP>
       <StyledImage src={project.image} onClick={() => handleChange(!open)} />
-      {/*   {open && (
-         <div className={`project-div ${open}`}>*/}
-      <StyledP>{project.summary}</StyledP>
-      <StyledRow>
-        <a href={project.siteLink}>View Project</a>
-        {project.sourceLink && <a href={project.sourceLink}>View Source</a>}
-      </StyledRow>
-      {/*</div>
-      )}*/}
+
+      <Transition
+        in={open}
+        timeout={duration}
+        mountOnEnter={true}
+        unmountOnExit={true}
+      >
+        {open => (
+          <div style={{ ...defaultStyle, ...transitionStyles[open] }}>
+            <StyledP>{project.summary}</StyledP>
+            <StyledRow>
+              <a href={project.siteLink}>View Project</a>
+              {project.sourceLink && (
+                <a href={project.sourceLink}>View Source</a>
+              )}
+            </StyledRow>
+          </div>
+        )}
+      </Transition>
     </section>
   )
 }

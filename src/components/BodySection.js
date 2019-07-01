@@ -6,7 +6,7 @@ const BodySection = () => (
   <StyledContainer>
     <StyledSection id="welcome">
       <h4>Hello new friend!</h4>
-      <a href="#about">
+      <a href="#about" title="Jump to About Nick">
         <h2>I’m Nick.</h2>
       </a>
       <p>
