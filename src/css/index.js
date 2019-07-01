@@ -3,6 +3,13 @@ import styled from "styled-components"
 export const StyledCarouselContainer = styled.section`
   margin: 35px;
   padding-left: 50px;
+  @media (min-width: 768px) {
+    margin: 35px 150px 50px;
+  }
+  @media (min-width: 1200px) {
+    margin: 35px 300px 50px;
+    padding-left: 100px;
+  }
 `
 
 export const StyledContainer = styled.div`

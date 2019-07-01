@@ -1,4 +1,5 @@
 import FodenDev from "../images/fodenDev.png"
+import Icon from "../images/theiconorg.png"
 import Sustain from "../images/sustain.png"
 import Wallplay from "../images/wallplay.png"
 import UseReact from "../images/useReactNYC.png"
@@ -40,8 +41,18 @@ export default [
     title: "wallplay network",
     subTitle: "a marketplace for pop-up experiences",
     summary:
-      "Working with wallplay to build out 2 SPA's. A public facing platform and a internal cms for editing the content, managing the projects, the spaces and the users and their profiles",
+      "Built out 2 SPA's. A public facing platform and a internal cms for editing the content, managing the projects, the spaces and the users and their profiles.",
     siteLink: "https://wallplay.com/",
+    sourceLink: "",
+  },
+  {
+    id: "5",
+    image: Icon,
+    title: "Industrial & Commerical Operations Network",
+    subTitle: "The definitive tool for energy professionals",
+    summary:
+      "A platform for Energy Utility information and compliance in the UK. The platform keeps users up to date on latest Energy news, allows them to check they are compliant with the current and future regulations and chat in forums about Energy issues.",
+    siteLink: "https://theicon.org.uk/",
     sourceLink: "",
   },
 ]
