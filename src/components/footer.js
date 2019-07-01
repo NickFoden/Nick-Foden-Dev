@@ -53,6 +53,7 @@ const Footer = () => (
             href="https://www.goodreads.com/user/show/4866462-nick-foden"
             rel="noopener noreferrer"
             target="_blank"
+            title="Check out Good Reads"
           >
             <img src={goodReads} alt="goodReads" />
           </a>
@@ -62,6 +63,7 @@ const Footer = () => (
             href="https://github.com/NickFoden"
             rel="noopener noreferrer"
             target="_blank"
+            title="Go to Nick's Github"
           >
             <img src={github} alt="github" />
           </a>
@@ -71,6 +73,7 @@ const Footer = () => (
             href="https://nickfoden.wordpress.com/"
             rel="noopener noreferrer"
             target="_blank"
+            title="Older wordpress blog"
           >
             <img src={wordpress} alt="wordpress" />
           </a>
@@ -80,6 +83,7 @@ const Footer = () => (
             href="https://twitter.com/NickFoden"
             rel="noopener noreferrer"
             target="_blank"
+            title="Nick on Twitter"
           >
             <img src={twitter} alt="twitter" />
           </a>
