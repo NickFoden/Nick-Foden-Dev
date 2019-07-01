@@ -9,7 +9,7 @@ export default class AboutSection extends Component {
       <StyledContainer>
         <StyledSection id="projects">
           <h3>Projects</h3>
-          <ul style={{ listStyle: "none" }}>
+          <ul style={{ listStyle: "none", margin: 0, padding: "0 0 0 15px" }}>
             {Projects.map(project => {
               return (
                 <li key={project.id}>
