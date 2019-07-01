@@ -17,6 +17,18 @@ export const StyledSection = styled.section`
   }
   & p {
     margin: 25px;
-    max-width: 750px;
+    max-width: 500px;
+  }
+  @media (min-width: 768px) {
+    margin: 25px 150px;
+    & p {
+      max-width: 600px;
+    }
+  }
+  @media (min-width: 1200px) {
+    margin: 25px 300px;
+    & p {
+      max-width: 800px;
+    }
   }
 `
