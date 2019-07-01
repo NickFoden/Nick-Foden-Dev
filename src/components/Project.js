@@ -4,6 +4,8 @@ import styled from "styled-components"
 
 const StyledHr = styled.hr`
   border: 1px solid lightseagreen;
+  margin-left: 0;
+  max-width: ${props => (props.open ? "500px" : "350px")};
 `
 
 const StyledImage = styled.img`
@@ -91,7 +93,7 @@ const Project = ({ project }) => {
           </div>
         )}
       </Transition>
-      <StyledHr />
+      <StyledHr open={open} />
     </section>
   )
 }
