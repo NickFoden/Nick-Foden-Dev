@@ -15,6 +15,10 @@ export const StyledCarouselContainer = styled.section`
 export const StyledContainer = styled.div`
   width: 100vw;
 `
+export const StyledBackToTop = styled.a`
+  color: white;
+  margin-left: 50px;
+`
 
 export const StyledSection = styled.section`
   margin: 25px;

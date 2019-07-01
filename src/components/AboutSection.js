@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { StyledContainer, StyledSection } from "../css"
+import { StyledBackToTop, StyledContainer, StyledSection } from "../css"
 
 export default class AboutSection extends Component {
   render() {
@@ -50,7 +50,7 @@ export default class AboutSection extends Component {
             a beer or who knows, heck I'll even help you move apartments if you
             need it. Hit me up !
           </p>
-          <a href="#welcome"> -- Back to top</a>
+          <StyledBackToTop href="#welcome"> - Back to top -</StyledBackToTop>
         </StyledSection>
       </StyledContainer>
     )

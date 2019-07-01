@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { StyledContainer, StyledSection } from "../css"
 import Project from "./Project"
-import Projects from "../projects/projects"
+import Projects from "../content/projects"
 
 export default class AboutSection extends Component {
   render() {
