@@ -15,7 +15,8 @@ const StyledImage = styled.img`
   width: 250px;
   transition: border-color 0.25s ease-in-out;
   & :hover {
-    border-color: #42f5d4;
+    border-color: lightseagreen;
+    opacity: 0.5;
   }
 `
 

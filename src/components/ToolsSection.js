@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { StyledBackToTop, StyledContainer, StyledSection } from "../css"
+import { StyledContainer, StyledSection } from "../css"
 import Tools from "../content/tools"
 
 export default class ToolsSection extends Component {
