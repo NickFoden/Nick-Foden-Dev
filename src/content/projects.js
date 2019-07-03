@@ -1,4 +1,4 @@
-import Cards from "../images/Cards.png"
+import Cards from "../images/cards.png"
 import FodenDev from "../images/fodenDev.png"
 import Icon from "../images/theiconorg.png"
 import Sustain from "../images/sustain.png"
