@@ -1,3 +1,4 @@
+import Cards from "../images/Cards.png"
 import FodenDev from "../images/fodenDev.png"
 import Icon from "../images/theiconorg.png"
 import Sustain from "../images/sustain.png"
@@ -49,10 +50,20 @@ export default [
     id: "5",
     image: FodenDev,
     title: "Foden Dev Blog",
-    subTitle: "Blogging away about web development",
+    subTitle: "Blogging up in here",
     summary:
       "Myself and 2 of my cousins in other countries are working in web dev, and I started this blog as a way for us all to blog what we learn and share with the web. More posts to come. Many more.",
     siteLink: "https://foden.dev/",
     sourceLink: "https://github.com/NickFoden/foden-dev-blog",
+  },
+  {
+    id: "5",
+    image: Cards,
+    title: "Cards",
+    subTitle: "Node + Pug JavaScript methods flashcards app",
+    summary:
+      "This node app project is supported by a mongo db at mLab and the code is deployed on HEROKU. PassportJS handle user authentication and if they are succesfully logged in then users have option to add more cards.",
+    siteLink: " https://cards-js.herokuapp.com/",
+    sourceLink: "https://github.com/NickFoden/cards-pug",
   },
 ]
