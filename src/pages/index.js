@@ -2,6 +2,7 @@ import React from "react"
 import "../css/styles.css"
 
 import AboutSection from "../components/AboutSection"
+import BenefactionSection from "../components/BenefactionSection"
 import BodySection from "../components/BodySection"
 import Layout from "../components/layout"
 import PodcastSection from "../components/PodcastSection"
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <ProjectsSection />
     <ToolsSection />
     <PodcastSection />
+    <BenefactionSection />
     <AboutSection />
   </Layout>
 )
