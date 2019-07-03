@@ -8,7 +8,7 @@ export default class AboutSection extends Component {
         <StyledSection id="about">
           <h3>About</h3>
           <p>
-            Born and raised in Mountain View, CA(Before google took over the
+            Born and raised in Mountain View, CA (Before google took over the
             town), I went to html summer camps at Stanford as a kid and I have
             always been messing around on computers. I attended college in San
             Francisco, and was tweaking websites for friends and landing pages
