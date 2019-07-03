@@ -4,6 +4,7 @@ import "../css/styles.css"
 import AboutSection from "../components/AboutSection"
 import BodySection from "../components/BodySection"
 import Layout from "../components/layout"
+import PodcastSection from "../components/PodcastSection"
 import ProjectsSection from "../components/ProjectsSection"
 import SEO from "../components/seo"
 import ToolsSection from "../components/ToolsSection"
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <BodySection />
     <ProjectsSection />
     <ToolsSection />
+    <PodcastSection />
     <AboutSection />
   </Layout>
 )
