@@ -1,6 +1,7 @@
 import React from "react"
 import AppCarousel from "./AppCarousel"
 import { StyledCarouselContainer, StyledContainer, StyledSection } from "../css"
+import "../css/styles.css"
 
 const BodySection = () => (
   <StyledContainer>
@@ -15,17 +16,27 @@ const BodySection = () => (
           {" "}
           🐕{" "}
         </span>
-        's, solving problems, more
+        s,{" "}
+        <a
+          href="https://foden.dev/"
+          id="blog-link"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {" "}
+          solving problems
+        </a>
+        , more
         <span role="img" aria-label="dog face">
           {" "}
           🐶{" "}
         </span>
-        's also{" "}
+        s also{" "}
         <span role="img" aria-label="turtle">
           {" "}
           🐢{" "}
         </span>
-        's.{" "}
+        s.{" "}
       </p>
     </StyledSection>
     <StyledCarouselContainer>

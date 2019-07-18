@@ -78,6 +78,15 @@ ul {
   padding: 0 0 0 15px;
 }
 
+#blog-link {
+  opacity: .5;
+}
+
+#blog-link:hover {
+  color: var(--color-twitter-blue);
+  opacity: 1;
+}
+
 .project-div {
   visibility: hidden;
   opacity: 0;
