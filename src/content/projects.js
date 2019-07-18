@@ -1,21 +1,14 @@
 import Cards from "../images/cards.png"
+import FlashFauna from "../images/flash-fauna.png"
 import FodenDev from "../images/fodenDev.png"
 import Icon from "../images/theiconorg.png"
 import Sustain from "../images/sustain.png"
+import StateYourPlate from "../images/StateYourPlate.jpeg"
+import Tommy from "../images/tommy_crab_green.png"
 import Wallplay from "../images/wallplay.png"
 import UseReact from "../images/useReactNYC.png"
 
 export default [
-  {
-    id: "0",
-    image: Wallplay,
-    title: "Tommy's Cartoons",
-    subTitle: "View 500 days of Tommy's cartoons",
-    summary:
-      "Tommy Siegel drew and posted online a cartoon every day for 500 days. I built this React App so fans can cycle randomly or skip to a specific date and see all of Tommy's 500 Cartoons in one place.",
-    siteLink: "https://tommysiegelcartoons.netlify.com/",
-    sourceLink: "",
-  },
   {
     id: "1",
     image: Wallplay,
@@ -48,6 +41,16 @@ export default [
   },
   {
     id: "4",
+    image: Tommy,
+    title: "Tommy's Cartoons",
+    subTitle: "View 500 days of Tommy's cartoons",
+    summary:
+      "Tommy Siegel drew and posted online a cartoon every day for 500 days. I built this React App so fans can cycle randomly or skip to a specific date and see all of Tommy's 500 Cartoons in one place.",
+    siteLink: "https://tommysiegelcartoons.netlify.com/",
+    sourceLink: "",
+  },
+  {
+    id: "5",
     image: UseReact,
     title: "useReactNYC",
     subTitle: "Website 2.0 for NY's newest and most exciting React Meetup",
@@ -57,7 +60,7 @@ export default [
     sourceLink: "https://github.com/usereactnyc/usereact.nyc",
   },
   {
-    id: "5",
+    id: "6",
     image: FodenDev,
     title: "Foden Dev Blog",
     subTitle: "Blogging up in here",
@@ -67,7 +70,27 @@ export default [
     sourceLink: "https://github.com/NickFoden/foden-dev-blog",
   },
   {
-    id: "5",
+    id: "7",
+    image: FlashFauna,
+    title: "Flash Fauna",
+    subTitle: "FaunaDB + React flashcards app",
+    summary:
+      "Quick app to try out FaunaDB. Add new cards to the fauna database, cycle through them and learn some new css,html or JavaScript",
+    siteLink: "https://flash-fauna.netlify.com/",
+    sourceLink: "https://github.com/NickFoden/flash-fauna",
+  },
+  {
+    id: "8",
+    image: StateYourPlate,
+    title: "State Your Plate",
+    subTitle: "Upload vanity license plates",
+    summary:
+      "Fast little app built in 3 hours to try out firestore when it was new. React + Bulma CSS + Firestore. Have resumed working on a React Native version to be complete August 2019. ",
+    siteLink: "https://stateyourplate.co//",
+    sourceLink: "",
+  },
+  {
+    id: "9",
     image: Cards,
     title: "Cards",
     subTitle: "Node + Pug JavaScript methods flashcards app",
