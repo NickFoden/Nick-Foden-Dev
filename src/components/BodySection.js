@@ -15,17 +15,17 @@ const BodySection = () => (
           {" "}
           🐕{" "}
         </span>
-        's, solving problems, more
+        s, solving problems, more
         <span role="img" aria-label="dog face">
           {" "}
           🐶{" "}
         </span>
-        's also{" "}
+        s also{" "}
         <span role="img" aria-label="turtle">
           {" "}
           🐢{" "}
         </span>
-        's.{" "}
+        s.{" "}
       </p>
     </StyledSection>
     <StyledCarouselContainer>
