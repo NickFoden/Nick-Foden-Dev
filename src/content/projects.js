@@ -15,7 +15,7 @@ export default [
     title: "wallplay network",
     subTitle: "A marketplace for pop-up experiences",
     summary:
-      "2 React SPA's. A public facing platform and an internal cms for editing the content, managing the projects, the spaces and the users and their profiles. Wrapping the apps in session HOC's to ensure appropriate auth for routing, organizing database structure and writing the rules to enforce security.",
+      "2 React apps. A public facing platform and an internal cms for editing the content, managing the projects, the spaces and the users and their profiles. Both React apps sharing a Node back end and a NoSQL Database in Google Cloud.",
     siteLink: "https://wallplay.com/",
     sourceLink: "",
   },
