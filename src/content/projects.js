@@ -86,7 +86,7 @@ export default [
     subTitle: "Upload vanity license plates",
     summary:
       "Fast little app built in 3 hours to try out firestore when it was new. React + Bulma CSS + Firestore. Have resumed working on a React Native version to be complete August 2019. ",
-    siteLink: "https://stateyourplate.co//",
+    siteLink: "https://stateyourplate.co",
     sourceLink: "",
   },
   {
