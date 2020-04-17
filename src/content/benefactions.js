@@ -19,8 +19,8 @@ export default [
   {
     id: "3",
     image: Kiva,
-    title: "Kiva",
-    link: "https://www.kiva.org/",
+    title: "Nick on Kiva",
+    link: "https://www.kiva.org/lender/nickfoden",
   },
   {
     id: "4",
