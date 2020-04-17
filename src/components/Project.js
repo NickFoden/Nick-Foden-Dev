@@ -72,14 +72,17 @@ const Project = ({ project }) => {
           <div style={{ ...defaultStyle, ...transitionStyles[open] }}>
             <StyledP>{project.summary}</StyledP>
             <StyledRow>
-              <a
-                href={project.siteLink}
-                rel="noopener noreferrer"
-                target="_blank"
-                title={`View the ${project.title} website`}
-              >
-                View Project
-              </a>
+              {project.sourceInfo && <p>{project.sourceInfo}</p>}
+              {project.siteLink && (
+                <a
+                  href={project.siteLink}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title={`View the ${project.title} website`}
+                >
+                  View Project
+                </a>
+              )}
               {project.sourceLink && (
                 <a
                   href={project.sourceLink}
