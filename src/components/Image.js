@@ -6,7 +6,12 @@ const Image = ({ image, altProp, url }) => {
       <img
         src={image}
         alt={altProp}
-        style={{ ojectFit: "cover", width: "150px" }}
+        style={{
+          ojectFit: "cover",
+          width: "auto",
+          height: "150px",
+          zIndex: 5,
+        }}
       />
     </a>
   )

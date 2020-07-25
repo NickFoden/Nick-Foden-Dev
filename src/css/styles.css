@@ -65,7 +65,7 @@ a {
 
 a:hover {
   /* color: var(--color-white); */
-  opacity: .5;
+  opacity: 0.5;
 }
 
 p {
@@ -79,7 +79,7 @@ ul {
 }
 
 #blog-link {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #blog-link:hover {
