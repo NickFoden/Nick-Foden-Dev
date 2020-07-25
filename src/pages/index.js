@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       description="NYC Based Full Stack Web Developer Nick Foden"
-      title="Nick Is Online"
+      title="Nick Foden"
     />
     <BodySection />
     <ProjectsSection />

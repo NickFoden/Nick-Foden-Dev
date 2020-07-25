@@ -7,7 +7,7 @@ import Header from "./header"
 const Layout = ({ children }) => {
   return (
     <div>
-      <Header siteTitle="Nick Is Online" />
+      <Header siteTitle="Nick Foden" />
       <main>{children}</main>
       <Footer />
     </div>
