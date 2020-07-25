@@ -18,7 +18,7 @@ const BodySection = () => (
         </span>
         s,{" "}
         <a
-          href="https://foden.dev/"
+          href="https://github.com/nickfoden"
           id="blog-link"
           rel="noopener noreferrer"
           target="_blank"
