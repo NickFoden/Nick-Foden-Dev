@@ -8,6 +8,7 @@ import Sustain from "../images/sustain.png"
 // import StateYourPlate from "../images/StateYourPlate.jpeg"
 import Tommy from "../images/tommy_crab_green.png"
 import Wallplay from "../images/wallplay.png"
+import WinSon from "../images/winson-bear.jpg"
 import UseReact from "../images/useReactNYC.png"
 
 export default [
@@ -19,6 +20,15 @@ export default [
     summary: `ExploreJS is a project to scale mentoring for new developers/students who are learning JavaScript. Offering free "office hours" for anyone to come and debug their code over screenshare with intermediate and advanced developer mentors as well as be a community for shared ideas and resources. Coding Coach started a lot of mentoring relationships, and at a point it's hard to mentor more than a few people at a time. The goal is to ultimately help new developers go from student to professional by working together.`,
     siteLink: "https://explorejs.com/",
     sourceLink: "https://github.com/explorejs/explorejs",
+  },
+  {
+    id: "1b",
+    image: WinSon,
+    title: "Win Son Brooklyn",
+    subTitle: "Taiwanese american restaurant and bakery.",
+    summary: `Win Son is 2 delicious restaurants - the restaurant & the bakery both in Brooklyn off the Montrose L stop. The Win Son team are long time friends of mine and this is a next.js + contentful cms site for them to manage their current menu and keep with their fun minimal theme. Courier !`,
+    siteLink: "https://winsonbrooklyn.com/",
+    sourceLink: "https://github.com/NickFoden/winson-next",
   },
   {
     id: "2",
